@@ -1,0 +1,199 @@
+/*背景*/
+html,
+body,
+.wrap{
+  width:100%;
+}
+.wrap{
+  background:url(../images/overlay.png) left top repeat;
+  background-color:#000000;
+  background-attachment: fixed;
+}
+/*怪盗最新通告*/
+.inform{
+  position:fixed;
+  left:10px;
+  top:10px;
+  width:500px;
+  height:100px;
+  z-index:10;
+}
+.icon{
+  float:left;
+  width:100px;
+  height:100px;
+  -webkit-transition:all 2s ease-in-out .2s;
+  -moz-transition:all 2s ease-in-out .2s;
+  -o-transition:all 2s ease-in-out .2s;
+  -ms-transition:all 2s ease-in-out .2s;
+  transition:all 2s ease-in-out .2s;
+}
+.icon:hover{
+  transform:rotate(360deg);
+  -ms-transform:rotate(360deg); 	/* IE 9 */
+  -moz-transform:rotate(360deg); 	/* Firefox */
+  -webkit-transform:rotate(360deg); /* Safari 和 Chrome */
+  -o-transform:rotate(360deg);
+}
+.inform-content{
+  margin-left:10px;
+  padding:30px 15px;
+  float:left;
+  width:270px;
+  height:40px;
+  font:18px/1.2em "STKaiti";
+  color:#ffffff;
+  background:url(../images/news_bg.png) left top no-repeat;
+  background-size:100% 100%;
+}
+
+/*头部*/
+header{
+  padding-top:25px;
+  height:100px;
+  background:url(../images/menu_bg.svg) left top no-repeat;
+}
+header ul{
+  margin-right:50px;
+}
+header ul li{
+  margin-left:50px;
+  float:right;
+  width:150px;
+  height:70px;
+  transition-duration: .2s;
+  -moz-transition-duration: .2s; /* Firefox 4 */
+  -webkit-transition-duration: .2s; /* Safari 和 Chrome */
+  -o-transition-duration: .2s; /* Opera */
+}
+header ul li a{
+  display:inline-block;
+  width:150px;
+  height:70px;
+}
+header ul li:hover{
+  margin-top:-10px;
+}
+.consignation{
+  background:url(../images/h_character.png) left top no-repeat;
+  background-size:100% 100%;
+}
+.thanks{
+  background:url(../images/h_school_life.png) left top no-repeat;
+  background-size:100% 100%;
+}
+.feats{
+  background:url(../images/h_archive.png) left top no-repeat;
+  background-size:100% 100%;
+}
+/*委托列表部分*/
+.consignation-list{
+  position:relative;
+  margin:0 auto;
+  padding-left:200px;
+  padding-top:250px;
+  width:80%;
+  height:1000px;
+  background:url(../images/contents_bg1.png) center top no-repeat;
+  background-size:100% 100%;
+}
+.consignation-item{
+  float:left;
+  margin:50px;
+  padding:10px;
+  width:330px;
+  height:180px;
+  border-radius:5px;
+  box-shadow:10px 10px 5px #000000;
+  background-color:#ffffff;
+  opacity:0.75;
+  filter:alpha(opacity=75);
+  transition-duration: .2s;
+  -moz-transition-duration: .2s; /* Firefox 4 */
+  -webkit-transition-duration: .2s; /* Safari 和 Chrome */
+  -o-transition-duration: .2s; /* Opera */
+}
+.consignation-item:hover{
+  opacity:0.9;
+}
+.consignation-item h3{
+  font-size:24px;
+}
+.consignation-item p{
+  margin-top:20px;
+  font-size:16px;
+  color:#333333;
+}
+/*分页按键列表*/
+.btnlist{
+  position:absolute;
+  bottom:40px;
+  right:350px;
+  width:400px;
+  height:50px;
+}
+.btnlist li{
+  float:left;
+  margin-left:30px;
+  height:28px;
+  border:1px solid #eee;
+  text-align:center;
+  line-height:30px;
+  cursor:pointer;
+}
+.pagebox{
+  margin-top:10px;
+}
+.pagebox span{
+  margin-left:50px;
+  margin-top:20px;
+}
+/*新的委托*/
+.consignation-new{
+  margin:0 auto;
+  margin-top:50px;
+  padding:50px;
+  width:70%;
+  height:400px;
+  background:rgba(99, 99, 99, 0.5);
+  border-radius:5px;
+}
+.consignation-new h2{
+  margin-bottom:40px;
+  font-size:36px;
+}
+.target-box{
+  margin-bottom:50px;
+}
+.consignation-new span{
+  font-size:20px;
+  vertical-align:top;
+}
+.target-box input{
+  margin-left:60px;
+  width:350px;
+  height:20px;
+}
+.consignation-new textarea{
+  margin-left:20px;
+}
+.btn-submit{
+  margin:0 auto;
+  margin-top:40px;
+  width:80%;
+  height:50px;
+  border-radius:5px;
+}
+/* 轮播图样式 */
+.swiper-container {
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width:300px;
+  height:300px;
+  background:url(../images/img/img5.jpg);
+}
