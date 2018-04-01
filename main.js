@@ -64,17 +64,4 @@ function page(updown){
 
 var page_num=1;
 
-//swiper使用
-window.onload = function() {
-  var swiper = new Swiper('.swiper-container', {
-      effect: 'flip',
-      grabCursor: true,
-      pagination: {
-        el: '.swiper-pagination',
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-}
+
